@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @deposit.type %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @deposit.description %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @deposit.amount %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @deposit.user_id %>
+</p>
+
+<p>
+  <strong>Account:</strong>
+  <%= @deposit.account_id %>
+</p>
+
+<%= link_to 'Edit', edit_deposit_path(@deposit) %> |
+<%= link_to 'Back', deposits_path %>
