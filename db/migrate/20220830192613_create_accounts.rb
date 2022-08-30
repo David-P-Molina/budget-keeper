@@ -7,6 +7,7 @@ class CreateAccounts < ActiveRecord::Migration[6.1]
       t.float :available_balance
       t.float :present_balance
       t.references :user, null: false, foreign_key: true
+      t.text :goals
 
       t.timestamps
     end

@@ -16,6 +16,7 @@ class AccountsTest < ApplicationSystemTestCase
 
     fill_in "Available balance", with: @account.available_balance
     fill_in "Bank", with: @account.bank
+    fill_in "Goals", with: @account.goals
     fill_in "Nickname", with: @account.nickname
     fill_in "Present balance", with: @account.present_balance
     fill_in "Type", with: @account.type
@@ -32,6 +33,7 @@ class AccountsTest < ApplicationSystemTestCase
 
     fill_in "Available balance", with: @account.available_balance
     fill_in "Bank", with: @account.bank
+    fill_in "Goals", with: @account.goals
     fill_in "Nickname", with: @account.nickname
     fill_in "Present balance", with: @account.present_balance
     fill_in "Type", with: @account.type

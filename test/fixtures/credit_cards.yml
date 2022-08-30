@@ -3,17 +3,15 @@
 one:
   bank: MyString
   nickname: MyString
-  type: 
-  available_balance: 1.5
-  present_balance: 1.5
-  user: one
   goals: MyText
+  interest_rate: 1.5
+  limit: 1
+  user: one
 
 two:
   bank: MyString
   nickname: MyString
-  type: 
-  available_balance: 1.5
-  present_balance: 1.5
-  user: two
   goals: MyText
+  interest_rate: 1.5
+  limit: 1
+  user: two
